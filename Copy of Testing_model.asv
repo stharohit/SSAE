@@ -1,9 +1,0 @@
-
-load net;
-load trmodel;
-%[ACC] = Neural_Network_Testing (temp, net,, temp);
-for i = 1:length(TrModel)
-    res(i)=testface-TrModel(i);
-end
-[val,ind]=min(res);
-I = imread(strcat('TrainDatabase\S',num2str(M),'\5.jpg')); 

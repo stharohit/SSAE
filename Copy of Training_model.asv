@@ -1,0 +1,14 @@
+sub_img=10;
+total_Users=5;
+TrModel=[];
+tem
+for Z=1:1:total_Users
+    Z
+    for X=1:1:sub_img    
+        
+        I = imread( strcat('TrainDatabase\S',int2str(Z),'\',int2str(X),'.jpg') );
+        
+        I= imresize(I,[128 128]);
+        temp =[temp];
+    end
+end
